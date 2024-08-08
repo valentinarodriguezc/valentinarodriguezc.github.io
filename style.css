@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #b41d61, #a92092, #ab58f4);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#headerSection {
+    padding: 10px 20px;
+}
+
+.presentacion{
+    border-style: dashed;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.glow {
+    color: #69275b;
+    text-shadow: 0 0 10px rgb(255, 153, 197), 0 0 20px #ff9, 0 0 30px #ff9, 0 0 40px #ff9, 0 0 50px #ff9, 0 0 60px #ff9, 0 0 70px #ff9;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+#headerSection p {
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+}
+
+
+#navBar a:hover {
+    color:#8619e6
+}
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
+
+#navBar {
+    background-color: rgba(228, 0, 249, 0.313);
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navBar ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+#navBar ul li a {
+    color: rgb(109, 6, 168) ;
+    text-shadow: 0 0 10px rgb(255, 153, 197), 0 0 20px rgb(28, 206, 191), 0 0 30px #ff9, 0 0 40px #ff9, 0 0 50px rgb(252, 153, 255), 0 0 60px #ff9, 0 0 70px #ff9; ;
+    text-decoration: none;
+    font-size: 1.3em;
+   
+}
