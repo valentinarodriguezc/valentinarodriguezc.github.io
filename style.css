@@ -6,18 +6,21 @@ body {
     padding: 0;
     text-align: center;
 }
-
 #headerSection {
     padding: 10px 20px;
 }
 
-.presentacion{
+.presentacion {
     border-style: dashed;
+    margin: 0 auto;
+    max-width: 80%;
 }
+
 h1 {
     font-size: 2em;
     margin-bottom: 15px;
 }
+
 .glow {
     color: #69275b;
     text-shadow: 0 0 10px rgb(255, 153, 197), 0 0 20px #ff9, 0 0 30px #ff9, 0 0 40px #ff9, 0 0 50px #ff9, 0 0 60px #ff9, 0 0 70px #ff9;
@@ -42,42 +45,98 @@ header img {
     margin-top: 20px;
 }
 
-
-#navBar a:hover {
-    color:#8619e6
-}
 .redes-sociales a {
     display: inline-block;
     margin: 0 15px;
 }
 
 .redes-sociales img {
-    width: 30px;
-    height: 30px;
+    max-width: 50px;
+    height: auto;
 }
 
 #navBar {
     background-color: rgba(228, 0, 249, 0.313);
     padding: 5px 0;
-    bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
 }
 
 #navBar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 #navBar ul li {
-    display: inline;
-    margin: 0 30px;
+    margin: 0 20px;
 }
 
 #navBar ul li a {
-    color: rgb(109, 6, 168) ;
-    text-shadow: 0 0 10px rgb(255, 153, 197), 0 0 20px rgb(28, 206, 191), 0 0 30px #ff9, 0 0 40px #ff9, 0 0 50px rgb(252, 153, 255), 0 0 60px #ff9, 0 0 70px #ff9; ;
+    color: rgb(109, 6, 168);
+    text-shadow: 0 0 10px rgb(255, 153, 197), 0 0 20px rgb(28, 206, 191), 0 0 30px #ff9, 0 0 40px #ff9, 0 0 50px rgb(252, 153, 255), 0 0 60px #ff9, 0 0 70px #ff9;
     text-decoration: none;
     font-size: 1.3em;
-   
+}
+
+#navBar a:hover {
+    color: #8619e6;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #headerSection p {
+        font-size: 1em;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .redes-sociales img {
+        max-width: 40px;
+    }
+
+    #navBar ul li {
+        margin: 10px 15px;
+    }
+
+    #navBar ul li a {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #headerSection p {
+        font-size: 0.9em;
+    }
+
+    header img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .redes-sociales img {
+        max-width: 30px;
+    }
+
+    #navBar ul li {
+        margin: 5px 10px;
+    }
+
+    #navBar ul li a {
+        font-size: 1em;
+    }
 }
